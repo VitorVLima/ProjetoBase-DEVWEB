@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+   font-family: Arial, Helvetica, sans-serif; 
+}
+
+header{
+    background-color: darkorange;
+    height: 100px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.418);
+}
+
+.logo{
+    display: inline-block;
+    float: right;
+    background-image: url('../imagens/logo-removebg-preview.png') ;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    
+    height: 183px;
+    width: 240px;
+}
+
+
+main{
+    display: block;
+    height: 221vh;
+    width: 100%;
+    background-color: rgb(93, 86, 182);
+}
+
+#spesquisa{
+    height: 300px;
+    width: 100%;
+    background-image: url('../imagens/pexels-photo-1449767.jpeg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover; 
+    position: relative;
+}
+
+#spesquisa > h2{
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    padding-top: 50px;
+}
+
+#spesquisa > div#barra{
+    display: block;
+    background-color: rgba(17, 1, 1, 0.61);
+    height: 100px;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#busc{
+    text-align: center;
+    padding-top: 25px;
+}
+
+#buscador {
+    height: 33px;
+    margin: 10px;
+    width: 25%;
+}
+
+#ibusca{
+    height: 30px;
+    margin: 10px;
+    width: 50%;
+    padding-left: 10px;
+}
+
+
+
+#sdestaque{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(252, 251, 251);
+}
+
+#sdestaque > h2{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 1px solid green;
+    color: green;
+}
+
+#sdestinos{
+    height: 100px;
+    width: 100%;
+    background-color: darkorange;
+}
+
+#sdestinos > a {
+    text-decoration: none;
+    height: 100%;
+}
+
+#sdestinos > a > h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1.8em;
+    color: white;
+}
+
+#scategorias{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: darkorange;
+}
